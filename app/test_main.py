@@ -15,7 +15,10 @@ from app.main import get_coin_combination
         (41, [1, 1, 1, 1]),
         (99, [4, 0, 2, 3]),
         (50, [0, 0, 0, 2]),
-        (17, [2, 1, 1, 0])
+        (17, [2, 1, 1, 0]),
+        (1000, [0, 0, 0, 40]),
+        (1234, [4, 1, 0, 49]),
+        (99999, [4, 0, 2, 3999])
     ]
 )
 def test_get_coin_combination(cents: int, expected: list) -> None:
